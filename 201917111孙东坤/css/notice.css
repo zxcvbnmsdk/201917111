@@ -1,0 +1,60 @@
+header {
+    height: 45px;
+    position: sticky;
+    top: 0px;
+}
+header div {
+    float: left;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    background-color: red;
+}
+header div:nth-child(1) {
+    width: 5%;
+    font-size: 20px;
+    text-align: left;
+}
+header div:nth-child(2) {
+    width: 95%;
+}
+.content {
+    width: 100%;
+}
+.content ul li {
+    overflow: hidden;
+}
+.content div:nth-child(odd) {
+    width: 10%;
+    box-sizing: border-box;
+    float: left;
+}
+.content div:nth-child(odd) img {
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 30px;
+}
+.content div:nth-child(even) {
+    width: 90%;
+    box-sizing: border-box;
+    float: left;
+    color: gray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.content div:nth-child(even) h2 {
+    font-size: 16px;
+}
+.content div:nth-child(even) p {
+    font-size: 8px;
+}
+.content div:nth-child(even) p:first-child {
+    font-size: 6px;
+    padding-bottom: 5px;
+}
+.none {
+    margin-top: 50px;
+    height: 200px;
+}

@@ -1,0 +1,58 @@
+.f_div{
+    background-color: #ee2c2c;
+    padding-bottom: 8%;
+    padding-top: 8%;
+}
+
+div a img{
+    width: 20%;
+    margin-left: 40%;
+    line-height: 25px;
+}
+
+div a p{
+    text-align: center;
+    color: white;
+    font-size: 10%;
+    font-weight: 600;
+}
+
+.main_section{
+    border-bottom: 1px solid rgb(221, 221, 221);
+    margin: 5px auto;
+    line-height: 50px;
+}
+
+.main_section .left_img{
+    float: left;
+    width: 10%;
+    margin: 5px 20px 10px 15px;
+}
+
+
+
+.main_section .right_img{
+    float: right;
+    width: 3%;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.main_section span{
+    color: gray;
+    text-align: center;
+    font-size: small;
+}
+
+.model_msg{
+    height: 70px;
+    width: 95%;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(105, 105, 105);
+}
+.model2_msg{
+    width: 100%;
+    display: table;
+    position: relative;
+    top: 10px;
+}
